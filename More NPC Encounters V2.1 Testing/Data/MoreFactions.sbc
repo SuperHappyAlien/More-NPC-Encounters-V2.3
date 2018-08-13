@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Factions>
+    <Faction Tag="IMDC" Founder="IMDC">
+      <Id>
+        <TypeId>MyObjectBuilder_FactionDefinition</TypeId>
+        <SubtypeId>IMDC</SubtypeId>
+      </Id>
+      <DisplayName>IMDC</DisplayName>
+      <IsDefault>true</IsDefault>
+	  <DefaultRelation>Enemies</DefaultRelation>
+	  <AcceptHumans>false</AcceptHumans>
+      <AutoAcceptMember>false</AutoAcceptMember>
+    </Faction>
+	<Faction Tag="CIVL" Founder="Civilian">
+      <Id>
+        <TypeId>MyObjectBuilder_FactionDefinition</TypeId>
+        <SubtypeId>Civilian</SubtypeId>
+      </Id>
+      <DisplayName>Civilian</DisplayName>
+      <IsDefault>true</IsDefault>
+	  <DefaultRelation>Enemies</DefaultRelation>
+	  <AcceptHumans>false</AcceptHumans>
+      <AutoAcceptMember>false</AutoAcceptMember>
+    </Faction>
+	    <Faction Tag="Icore" Founder="Bruce">
+      <Id>
+        <TypeId>MyObjectBuilder_FactionDefinition</TypeId>
+        <SubtypeId>Icore</SubtypeId>
+      </Id>
+      <DisplayName>Icore</DisplayName>
+      <IsDefault>true</IsDefault>
+	  <DefaultRelation>Enemies</DefaultRelation>
+	  <AcceptHumans>false</AcceptHumans>
+      <AutoAcceptMember>false</AutoAcceptMember>
+    </Faction>
+    <Faction Tag="Junk" Founder="Junkers">
+      <Id>
+        <TypeId>MyObjectBuilder_FactionDefinition</TypeId>
+        <SubtypeId>Junkers</SubtypeId>
+      </Id>
+      <DisplayName>Junkers</DisplayName>
+      <IsDefault>true</IsDefault>
+	  <DefaultRelation>Enemies</DefaultRelation>
+	  <AcceptHumans>false</AcceptHumans>
+      <AutoAcceptMember>false</AutoAcceptMember>
+    </Faction>
+    <Faction Tag="LT-V" Founder="jonathan">
+      <Id>
+        <TypeId>MyObjectBuilder_FactionDefinition</TypeId>
+        <SubtypeId>LTV</SubtypeId>
+      </Id>
+      <DisplayName>LTV</DisplayName>
+      <IsDefault>true</IsDefault>
+	  <DefaultRelation>Enemies</DefaultRelation>
+	  <AcceptHumans>false</AcceptHumans>
+      <AutoAcceptMember>false</AutoAcceptMember>
+    </Faction>
+    <Faction Tag="MILT" Founder="Military">
+      <Id>
+        <TypeId>MyObjectBuilder_FactionDefinition</TypeId>
+        <SubtypeId>Military</SubtypeId>
+      </Id>
+      <DisplayName>Military</DisplayName>
+      <IsDefault>true</IsDefault>
+	  <DefaultRelation>Enemies</DefaultRelation>
+	  <AcceptHumans>false</AcceptHumans>
+      <AutoAcceptMember>false</AutoAcceptMember>
+    </Faction>
+    <Faction Tag="Rust" Founder="Aragath">
+      <Id>
+        <TypeId>MyObjectBuilder_FactionDefinition</TypeId>
+        <SubtypeId>Rust</SubtypeId>
+      </Id>
+      <DisplayName>R.U.S.T.</DisplayName>
+      <IsDefault>true</IsDefault>
+	  <DefaultRelation>Enemies</DefaultRelation>
+	  <AcceptHumans>false</AcceptHumans>
+      <AutoAcceptMember>false</AutoAcceptMember>
+    </Faction>	
+    <Faction Tag="VCOR" Founder="VCOR">
+      <Id>
+        <TypeId>MyObjectBuilder_FactionDefinition</TypeId>
+        <SubtypeId>VCOR</SubtypeId>
+      </Id>
+      <DisplayName>Void Corporation</DisplayName>
+      <IsDefault>true</IsDefault>
+	  <DefaultRelation>Enemies</DefaultRelation>
+	  <AcceptHumans>false</AcceptHumans>
+      <AutoAcceptMember>false</AutoAcceptMember>
+    </Faction>
+    <Faction Tag="Traders" Founder="Traders">
+      <Id>
+        <TypeId>MyObjectBuilder_FactionDefinition</TypeId>
+        <SubtypeId>Traders</SubtypeId>
+      </Id>
+      <DisplayName>Traders</DisplayName>
+      <IsDefault>true</IsDefault>
+	  <DefaultRelation>Enemies</DefaultRelation>
+	  <AcceptHumans>false</AcceptHumans>
+      <AutoAcceptMember>false</AutoAcceptMember>
+    </Faction>	
+  </Factions>
+</Definitions>
