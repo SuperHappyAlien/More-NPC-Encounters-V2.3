@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PirateAntennas>
+
+    <Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>Adv Missile Outpost</SubtypeId>
+	</Id>
+	<Name>Adv Missile Outpost</Name>
+	<SpawnDistance>150</SpawnDistance>
+	<SpawnTimeMs>30000</SpawnTimeMs>
+	<FirstSpawnTimeMs>30000</FirstSpawnTimeMs> 
+	<MaxDrones>1</MaxDrones> 
+	<SpawnGroups>
+	<Group>(MILT)Arrowhead Mk 1</Group>		
+	</SpawnGroups>
+    </Antenna>
+	
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>Adv Missile Outpost Mk2</SubtypeId>
+	</Id>
+	<Name>Adv Missile Outpost Mk2</Name>
+	<SpawnDistance>150</SpawnDistance>
+	<SpawnTimeMs>30000</SpawnTimeMs>
+	<FirstSpawnTimeMs>30000</FirstSpawnTimeMs> 
+	<MaxDrones>2</MaxDrones> 
+	<SpawnGroups>
+	<Group>(MILT)Arrowhead Mk 1</Group>
+    <Group>(MILT)Arrowhead Mk 2</Group>		
+	</SpawnGroups>
+    </Antenna>
+	
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>Heli Platform</SubtypeId>
+	</Id>
+	<Name>Heli Platform</Name>
+	<SpawnDistance>150</SpawnDistance>
+	<SpawnTimeMs>30000</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>1</MaxDrones> 
+	<SpawnGroups>
+	<Group>(MILT)Arrowhead Mk 1</Group>
+    <Group>(MILT)Arrowhead Mk 2</Group>		
+	</SpawnGroups>
+    </Antenna>
+	
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>Calling Ajax Help Needed Asp !</SubtypeId>
+	</Id>
+	<Name>Calling Ajax Help Needed Asp !</Name>
+	<SpawnDistance>1150</SpawnDistance>
+	<SpawnTimeMs>60000</SpawnTimeMs>
+	<FirstSpawnTimeMs>300</FirstSpawnTimeMs> 
+	<MaxDrones>1</MaxDrones> 
+	<SpawnGroups>
+	<Group>(MILT)Ajax</Group>		
+	</SpawnGroups>
+    </Antenna>
+	
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>Call In Ajex</SubtypeId>
+	</Id>
+	<Name>Call In Ajex</Name>
+	<SpawnDistance>10000</SpawnDistance>
+	<SpawnTimeMs>30000</SpawnTimeMs>
+	<FirstSpawnTimeMs>30</FirstSpawnTimeMs> 
+	<MaxDrones>1</MaxDrones> 
+	<SpawnGroups>
+	<Group>(MILT)Ajax</Group>		
+	</SpawnGroups>
+    </Antenna>
+	
+	<!-- Airfield -->
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>Airfield</SubtypeId>
+	</Id>
+	<Name>Airfield</Name>
+	<SpawnDistance>150</SpawnDistance>
+	<SpawnTimeMs>30000</SpawnTimeMs>
+	<FirstSpawnTimeMs>30000</FirstSpawnTimeMs> 
+	<MaxDrones>2</MaxDrones> 
+	<SpawnGroups>
+	<Group>(MILT)Arrowhead Mk 1</Group>
+    <Group>(MILT)Arrowhead Mk 2</Group>		
+	</SpawnGroups>
+    </Antenna>
+    <!-- Airfield -->
+    
+  </PirateAntennas>
+</Definitions>

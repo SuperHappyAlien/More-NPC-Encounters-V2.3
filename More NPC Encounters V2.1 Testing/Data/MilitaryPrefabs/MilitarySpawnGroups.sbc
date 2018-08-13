@@ -1,0 +1,755 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+<!-- Military Base Yard 1 --> 
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(!Moon)(Mars)(MILT)Military Base Yard 1(Inst-3)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Speed>0.0</Speed>
+      <Frequency>1</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="MbaseEarth">
+          <Position>
+            <X>0.0</X>
+            <Y>35</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+        <Prefab SubtypeId="Armed Transport Victory">
+          <Position>
+            <X>100</X>
+            <Y>150</Y>
+            <Z>0</Z>
+          </Position>
+          <Speed>25</Speed>
+        </Prefab>
+        <Prefab SubtypeId="(MILT)GunPost(Inst-1)">
+          <Position>
+            <X>200.0</X>
+            <Y>7.5</Y>
+            <Z>-200.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="(MILT)GunPost(Inst-1)">
+          <Position>
+            <X>200.0</X>
+            <Y>7.5</Y>
+            <Z>200.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="(MILT)GunPost(Inst-1)">
+          <Position>
+            <X>-200.0</X>
+            <Y>7.5</Y>
+            <Z>200.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="(MILT)GunPost(Inst-1)">
+          <Position>
+            <X>-200</X>
+            <Y>7.5</Y>
+            <Z>-200</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+	 </SpawnGroup>
+<!-- Military Base Yard 1 - Military Base Yard 2 -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(!Moon)(Mars)(MILT)Military Base Yard 2(Inst-3)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Speed>0.0</Speed>
+      <Frequency>1</Frequency>
+      <Prefabs>
+	  <Prefab SubtypeId="MbaseEarth">
+          <Position>
+            <X>0.0</X>
+            <Y>35</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+        <Prefab SubtypeId="Armed Tranport Warrior">
+          <Position>
+            <X>100</X>
+            <Y>150</Y>
+            <Z>0</Z>
+          </Position>
+          <Speed>25</Speed>
+        </Prefab>
+        <Prefab SubtypeId="(MILT)GunPost(Inst-1)">
+          <Position>
+            <X>200.0</X>
+            <Y>7.5</Y>
+            <Z>-200.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="(MILT)GunPost(Inst-1)">
+          <Position>
+            <X>200.0</X>
+            <Y>7.5</Y>
+            <Z>200.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="(MILT)GunPost(Inst-1)">
+          <Position>
+            <X>-200.0</X>
+            <Y>7.5</Y>
+            <Z>200.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="(MILT)GunPost(Inst-1)">
+          <Position>
+            <X>-200</X>
+            <Y>7.5</Y>
+            <Z>-200</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+	 </SpawnGroup>
+<!-- Military Base Yard 2 - Military Base Yard 3 -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(!Moon)(Mars)(MILT)Military Base Yard 3(Inst-3)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Speed>0.0</Speed>
+      <Frequency>1</Frequency>
+      <Prefabs>
+	  <Prefab SubtypeId="MbaseEarth">
+          <Position>
+            <X>0.0</X>
+            <Y>35</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="Armed Transport Victory">
+          <Position>
+            <X>-100</X>
+            <Y>150</Y>
+            <Z>0</Z>
+          </Position>
+          <Speed>25</Speed>
+        </Prefab>
+        <Prefab SubtypeId="Armed Tranport Warrior">
+          <Position>
+            <X>100</X>
+            <Y>150</Y>
+            <Z>0</Z>
+          </Position>
+          <Speed>25</Speed>
+        </Prefab>
+        <Prefab SubtypeId="(MILT)Missile Turret(Inst-1)">
+          <Position>
+            <X>200.0</X>
+            <Y>7.5</Y>
+            <Z>-200.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="(MILT)Missile Turret(Inst-1)">
+          <Position>
+            <X>200.0</X>
+            <Y>7.5</Y>
+            <Z>200.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="(MILT)Missile Turret(Inst-1)">
+          <Position>
+            <X>-200.0</X>
+            <Y>7.5</Y>
+            <Z>200.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="(MILT)Missile Turret(Inst-1)">
+          <Position>
+            <X>-200</X>
+            <Y>7.5</Y>
+            <Z>-200</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+        <Prefab SubtypeId="T1001 - 1000">
+          <Position>
+            <X>-250</X>
+            <Y>10</Y>
+            <Z>-250</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="T1001 - 1000">
+          <Position>
+            <X>250</X>
+            <Y>10</Y>
+            <Z>250</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="T1001 - 1000">
+          <Position>
+            <X>250</X>
+            <Y>10</Y>
+            <Z>-250</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="T1001 - 1000">
+          <Position>
+            <X>-250</X>
+            <Y>10</Y>
+            <Z>250</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+	 </SpawnGroup>
+<!-- Military Base Yard 3 - Missile Turrets --> 	
+   <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(!Moon)(MILT)GunPost(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Speed>0.0</Speed>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(MILT)GunPost(Inst-1)">
+          <Position>
+            <X>0.0</X>
+            <Y>7.5</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(MILT)Missile Turret(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Speed>0.0</Speed>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(MILT)Missile Turret(Inst-1)">
+          <Position>
+            <X>0.0</X>
+            <Y>7.5</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup> 
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(MILT)Adv Missile Turret(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Speed>0.0</Speed>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(MILT)Adv Missile Turret(Inst-2)">
+          <Position>
+            <X>0.0</X>
+            <Y>7.5</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Missile Turrets - Adv Missile Turrets -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(!Moon)(MILT)Adv Missile Outpost(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Speed>0.0</Speed>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(MILT)Adv Missile Outpost(Inst-2)">
+          <Position>
+            <X>0.0</X>
+            <Y>7.5</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup> 
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(!Moon)(MILT)Adv Missile Outpost Mk2(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Speed>0.0</Speed>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(MILT)Adv Missile Outpost Mk2(Inst-3)">
+          <Position>
+            <X>0.0</X>
+            <Y>7.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Adv Missile Turrets - Arrowhead NPC Drones -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(MILT)Arrowhead Mk 1</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>false</IsEncounter>
+      <IsPirate>true</IsPirate>
+      <ReactorsOn>true</ReactorsOn>
+      <Frequency>50.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(MILT)Arrowhead Mk 1">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>(MILT)Arrowhead Mk 1</BeaconText>
+          <Speed>0.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(MILT)Arrowhead Mk 2</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>false</IsEncounter>
+      <IsPirate>true</IsPirate>
+      <ReactorsOn>true</ReactorsOn>
+      <Frequency>50.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(MILT)Arrowhead Mk 2">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>(MILT)Arrowhead Mk 1</BeaconText>
+          <Speed>0.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Arrowhead NPC Drones - MbaseEarth -->
+   <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(!Moon)(MILT)MbaseEarth(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Speed>0.0</Speed>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="MbaseEarth">
+          <Position>
+            <X>0.0</X>
+            <Y>35</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- MbaseEarth - (MILT)M Ground  Mk1 --> 
+   <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(!Moon)(MILT)M Ground  Mk1(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Speed>0.0</Speed>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(MILT)M Ground  Mk1">
+          <Position>
+            <X>0.0</X>
+            <Y>25</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- (MILT)M Ground  Mk1 - T1001 -->
+   <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(!Moon)(Mars)(MILT)T1001(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Speed>0.0</Speed>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="T1001">
+          <Position>
+            <X>0.0</X>
+            <Y>10</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- T1001 - Ignotus Agenda Heli Platform Mk 1 --> 
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(!Mars)(MILT)Ignotus Agenda Heli Platform Mk 1(Atmo)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Ignotus Agenda Heli Platform Mk 1">
+          <Position>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Position>
+          <Speed>15</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup> 
+<!-- Ignotus Agenda Heli Platform Mk 1 - Armed Tranport Warrior -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(!Moon)(MILT)Armed Tranport Warrior(Atmo)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Armed Tranport Warrior">
+          <Position>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Position>
+          <Speed>25</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Armed Tranport Warrior - Armed Transport Victory -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(!Moon)(MILT)Armed Transport Victory(Atmo)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Armed Transport Victory">
+          <Position>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Position>
+          <Speed>25</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup> 
+<!-- Armed Transport Victory - Ajax -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(MILT)Ajax</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>false</IsEncounter>
+      <IsPirate>true</IsPirate>
+      <ReactorsOn>true</ReactorsOn>
+      <Frequency>50.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Ajax">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>Ajax</BeaconText>
+          <Speed>0.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Ajax - Refueling Depot -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(!Moon)(MILT)Refueling Depot(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Speed>0.0</Speed>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Refueling Depot">
+          <Position>
+            <X>0.0</X>
+            <Y>19</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Refueling Depot - Cargo Depot -->
+     <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(!Moon)(MILT)Cargo Depot(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Speed>0.0</Speed>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Cargo Depot">
+          <Position>
+            <X>0.0</X>
+            <Y>21</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Cargo Depot - H2 Refueling Depot -->
+     <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(!Moon)(MILT)H2 Refueling Depot(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Speed>0.0</Speed>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="H2 Refueling Depot">
+          <Position>
+            <X>0.0</X>
+            <Y>20</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- H2 Refueling Depot - Parts Depot -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(!Moon)(MILT)Parts Depot(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Speed>0.0</Speed>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Parts Depot">
+          <Position>
+            <X>0.0</X>
+            <Y>20</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Parts Depot - Main Refueling Depot -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(!Moon)(MILT)Main Refueling Depot(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Speed>0.0</Speed>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Main Refueling Depot">
+          <Position>
+            <X>0.0</X>
+            <Y>28</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Main Refueling Depot - T-14 armata vanilla tank V6 -->
+   <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(!Moon)(Mars)(MILT)T-14 armata vanilla tank V6(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="T-14 armata vanilla tank V6">
+          <Position>
+            <X>0</X>
+            <Y>15</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- T-14 armata vanilla tank V6 - T-90 MS V16 -->
+   <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(!Moon)(Mars)(MILT)T-90 MS V16(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="T-90 MS V16">
+          <Position>
+            <X>0</X>
+            <Y>15</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- T-90 MS V16 - T-80 UK vanilla tank -->
+   <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(!Moon)(Mars)(MILT)T-80 UK vanilla tank(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="T-80 UK vanilla tank">
+          <Position>
+            <X>0</X>
+            <Y>15</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- T-80 UK vanilla tank - Airfield -->
+   <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(MILT)Airfield(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Speed>0.0</Speed>
+      <Frequency>2</Frequency>
+      <Prefabs>
+	  <!-- Walls --> 
+        <Prefab SubtypeId="W4">
+          <Position>
+            <X>0</X>
+            <Y>7.5</Y>
+            <Z>0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+		<!-- AirF Hanger -->
+        <Prefab SubtypeId="AirF Hanger">
+          <Position>
+            <X>-30</X>
+            <Y>9</Y>
+            <Z>90</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+        <!-- AirF Hangers -->
+        <Prefab SubtypeId="AirF Hanger">
+          <Position>
+            <X>70</X>
+            <Y>9</Y>
+            <Z>90</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+        <!-- AirF Bays -->
+        <Prefab SubtypeId="AirF Bays">
+          <Position>
+            <X>70</X>
+            <Y>5</Y>
+            <Z>-60</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+        <!-- AirF Tower -->
+        <Prefab SubtypeId="AirF Tower">
+          <Position>
+            <X>-60</X>
+            <Y>28</Y>
+            <Z>-20</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+        <!-- AjaxAf -->
+        <Prefab SubtypeId="AjaxAf">
+          <Position>
+            <X>-60</X>
+            <Y>98</Y>
+            <Z>-20</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>		
+      </Prefabs>
+    </SpawnGroup>
+<!-- Airfield -->	
+  </SpawnGroups>
+</Definitions>
+

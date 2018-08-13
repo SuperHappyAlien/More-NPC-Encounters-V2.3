@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ContainerTypes>
+	<ContainerType CountMin="1" CountMax="1">
+      <Id>
+        <TypeId>ContainerTypeDefinition</TypeId>
+        <SubtypeId>Warrior Large Cargo Container NPC</SubtypeId>
+      </Id>
+      <Items>
+        <Item AmountMin="100" AmountMax="150">
+          <Frequency>1.0</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Platinum</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="15000" AmountMax="37000">
+          <Frequency>1.0</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Iron</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="1200" AmountMax="4400">
+          <Frequency>1.0</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Cobalt</SubtypeId>
+          </Id>
+        </Item>
+	    <Item AmountMin="1200" AmountMax="3400">
+          <Frequency>1.0</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Silver</SubtypeId>
+          </Id>
+        </Item>
+		<Item AmountMin="1200" AmountMax="3400">
+          <Frequency>1.0</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Magnesium</SubtypeId>
+          </Id>
+        </Item>
+		<Item AmountMin="5000" AmountMax="9400">
+          <Frequency>1.0</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Nickel</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="1215" AmountMax="2230">
+          <Frequency>1.0</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Silicon</SubtypeId>
+          </Id>
+        </Item>
+		 <Item AmountMin="200" AmountMax="500">
+          <Frequency>1.0</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Gold</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="250" AmountMax="1000">
+          <Frequency>1.0</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Uranium</SubtypeId>
+          </Id>
+        </Item>
+      </Items>
+    </ContainerType>
+	<ContainerType CountMin="1" CountMax="1">
+      <Id>
+        <TypeId>ContainerTypeDefinition</TypeId>
+        <SubtypeId>Victory Large Cargo Container NPC</SubtypeId>
+      </Id>
+      <Items>
+        <Item AmountMin="100" AmountMax="500">
+          <Frequency>1.0</Frequency>
+          <Id>
+            <TypeId>Component</TypeId>
+            <SubtypeId>Explosives</SubtypeId>
+          </Id>
+        </Item>
+		<Item AmountMin="100" AmountMax="500">
+          <Frequency>1.0</Frequency>
+          <Id>
+            <TypeId>AmmoMagazine</TypeId>
+            <SubtypeId>Missile200mm</SubtypeId>
+          </Id>
+        </Item>
+		<Item AmountMin="300" AmountMax="1000">
+          <Frequency>1.0</Frequency>
+          <Id>
+            <TypeId>AmmoMagazine</TypeId>
+            <SubtypeId>NATO_25x184mm</SubtypeId>
+          </Id>
+        </Item>
+		<Item AmountMin="250" AmountMax="500">
+          <Frequency>1.0</Frequency>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Uranium</SubtypeId>
+          </Id>
+        </Item>
+		<Item AmountMin="1000" AmountMax="2000">
+          <Frequency>1.0</Frequency>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Magnesium</SubtypeId>
+          </Id>
+        </Item>
+      </Items>
+    </ContainerType>
+  </ContainerTypes>
+</Definitions>
