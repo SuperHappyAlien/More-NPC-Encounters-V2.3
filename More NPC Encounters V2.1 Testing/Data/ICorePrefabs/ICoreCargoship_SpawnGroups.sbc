@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>  
+<!--  Apis Planetary Freighter -->
+   <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Icore)(Alien)(Titan)Apis Planetary Freighter(Atmo)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Apis Planetary Freighter">
+          <Position>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>30</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Yasha Light APC (Vanilla) - Sagita - Blue Edition (Vanilla) -->	
+  </SpawnGroups>
+</Definitions>
+

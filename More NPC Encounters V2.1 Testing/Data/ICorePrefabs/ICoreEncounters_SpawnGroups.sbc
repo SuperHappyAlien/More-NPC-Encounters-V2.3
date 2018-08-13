@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>  
+<!-- Icore Base 1 -->  
+   <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Icore)(Alien)(Titan)Ironcore(Inst-3)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Speed>0.0</Speed>
+      <Frequency>3</Frequency>
+      <Prefabs>
+	<!-- S2 -->  
+	  <Prefab SubtypeId="Communication Station (Vanilla)">
+          <Position>
+            <X>0</X>
+            <Y>23</Y>
+            <Z>0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+	<!-- S3 -->
+	  <Prefab SubtypeId="Light Freighter Port (Vanilla)">
+          <Position>
+            <X>-97</X>
+            <Y>5</Y>
+            <Z>69</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+	<!-- S4 -->
+	  <Prefab SubtypeId="Mining Outpost (Vanilla)">
+          <Position>
+            <X>60</X>
+            <Y>10</Y>
+            <Z>-74</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+	<!-- S5 -->
+	  <Prefab SubtypeId="Survival Emergency Shelter (Vanilla)">
+          <Position>
+            <X>-122</X>
+            <Y>12</Y>
+            <Z>-15</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+	<!-- S6 -->
+	  <Prefab SubtypeId="Survival Emergency Shelter (Vanilla)">
+          <Position>
+            <X>-122</X>
+            <Y>12</Y>
+            <Z>-40</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+    <!-- S7 -->
+     <Prefab SubtypeId="Defense Station">
+          <Position>
+            <X>4</X>
+            <Y>19</Y>
+            <Z>182</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+    <!-- S8 -->
+     <Prefab SubtypeId="Defense Station">
+          <Position>
+            <X>-180</X>
+            <Y>19</Y>
+            <Z>4</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+    <!-- S9 -->
+     <Prefab SubtypeId="Defense Station">
+          <Position>
+            <X>8</X>
+            <Y>19</Y>
+            <Z>-159</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+    <!-- S10 -->
+   <Prefab SubtypeId="Defense Station">
+          <Position>
+            <X>185</X>
+            <Y>19</Y>
+            <Z>0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+    <!-- S11 -->		
+      </Prefabs>
+    </SpawnGroup>
+<!-- Icore Base 1 - Impetus Light Scout Landship -->
+   <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Icore)(Alien)(Titan)Impetus Light Scout Landship (Vanilla)(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Impetus Light Scout Landship (Vanilla)">
+          <Position>
+            <X>0</X>
+            <Y>20</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Impetus Light Scout Landship -Morja Land Speedboat (Vanilla) -->
+   <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Icore)(Alien)(Titan)Morja Land Speedboat (Vanilla)(Inst-1)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>4</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Morja Land Speedboat (Vanilla)">
+          <Position>
+            <X>0</X>
+            <Y>10</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Morja Land Speedboat (Vanilla) - Kamacit Defense Tank (Vanilla) -->
+   <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Icore)(Alien)(Titan)Kamacit Defense Tank (Vanilla)(Inst-1)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>4</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Kamacit Defense Tank (Vanilla)">
+          <Position>
+            <X>0</X>
+            <Y>10</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Kamacit Defense Tank (Vanilla) - Stygian Industria Exploration Frigate (Vanilla) -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Icore)(Alien)(Titan)Stygian Industria Exploration Frigate (Vanilla)(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Stygian Industria Exploration Frigate (Vanilla)">
+          <Position>
+            <X>0</X>
+            <Y>150</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Stygian Industria Exploration Frigate (Vanilla) - Hydra Corvette (Vanilla) -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Icore)(Alien)(Titan)Hydra Corvette (Vanilla)(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Hydra Corvette (Vanilla)">
+          <Position>
+            <X>0</X>
+            <Y>150</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Hydra Corvette (Vanilla) - Inical Battle Tank (Vanilla) -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Icore)(Alien)(Titan)Inical Battle Tank (Vanilla)(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Inical Battle Tank (Vanilla)">
+          <Position>
+            <X>0</X>
+            <Y>10</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Inical Battle Tank (Vanilla) - Cyclops Caravelle (Vanilla) -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Icore)(Alien)(Titan)Cyclops Caravelle (Vanilla)(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Cyclops Caravelle (Vanilla)">
+          <Position>
+            <X>0</X>
+            <Y>1000</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!--  Cyclops Caravelle (Vanilla) - Hyena Support Truck -->	
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Icore)(Alien)(Titan)Hyena Support Truck (Vanilla)(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Cyclops Caravelle (Vanilla)">
+          <Position>
+            <X>0</X>
+            <Y>10</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Cyclops Caravelle (Vanilla) -Enigma Heavy Assault VTOL (Vanilla) -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Icore)(Alien)(Titan)Enigma Heavy Assault VTOL (Vanilla)(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Enigma Heavy Assault VTOL (Vanilla)">
+          <Position>
+            <X>0</X>
+            <Y>100</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Enigma Heavy Assault VTOL (Vanilla) - Yasha Light APC (Vanilla) -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Icore)(Alien)(Titan)Yasha Light APC (Vanilla)(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Yasha Light APC (Vanilla)">
+          <Position>
+            <X>0</X>
+            <Y>100</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Apis Planetary Freighter - Refueling Station (Vanilla) -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Icore)(Titan)Refueling Station (Vanilla)(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Refueling Station (Vanilla)">
+          <Position>
+            <X>0</X>
+            <Y>3000</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>	
+<!-- Refueling Station (Vanilla) -->	
+  </SpawnGroups>
+</Definitions>
+

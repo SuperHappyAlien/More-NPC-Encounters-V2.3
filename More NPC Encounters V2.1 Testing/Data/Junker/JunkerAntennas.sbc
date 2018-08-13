@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PirateAntennas>
+  
+  <Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>Back up</SubtypeId>
+	</Id>
+	<Name>Back up</Name>
+	<SpawnDistance>250</SpawnDistance>
+	<SpawnTimeMs>3000</SpawnTimeMs>
+	<FirstSpawnTimeMs>30</FirstSpawnTimeMs> 
+	<MaxDrones>1</MaxDrones> 
+	<SpawnGroups>
+    <Group>Junker Gunship</Group>		
+	</SpawnGroups>
+    </Antenna>
+
+    <Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>Junker Airship</SubtypeId>
+	</Id>
+	<Name>Junker Airship</Name>
+	<SpawnDistance>250</SpawnDistance>
+	<SpawnTimeMs>3000</SpawnTimeMs>
+	<FirstSpawnTimeMs>30</FirstSpawnTimeMs> 
+	<MaxDrones>2</MaxDrones> 
+	<SpawnGroups>
+    <Group>Junker Drone</Group>		
+	</SpawnGroups>
+    </Antenna>
+	
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>Stay Away!</SubtypeId>
+	</Id>
+	<Name>Stay Away!</Name>
+	<SpawnDistance>250</SpawnDistance>
+	<SpawnTimeMs>3000</SpawnTimeMs>
+	<FirstSpawnTimeMs>30</FirstSpawnTimeMs> 
+	<MaxDrones>2</MaxDrones> 
+	<SpawnGroups>
+    <Group>Junker Drone</Group>		
+	</SpawnGroups>
+    </Antenna>
+    
+  </PirateAntennas>
+</Definitions>

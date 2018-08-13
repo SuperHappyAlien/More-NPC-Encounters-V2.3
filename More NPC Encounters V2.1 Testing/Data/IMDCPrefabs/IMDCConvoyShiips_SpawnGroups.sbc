@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+<!-- convoys - mix -->
+	    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>IMDC Transport Convoy Mix</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>13</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Transport 'Bumblebee'">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>IMDC Transport 'Bumblebee'</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="IMDC Mining Rig 'Termite'">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>150</Z>
+          </Position>
+          <BeaconText>IMDC Mining Rig 'Termite'</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="IMDC Mobile Refinery">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>-100</Z>
+          </Position>
+          <BeaconText>IMDC Mobile Refinery</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+        <Prefab SubtypeId="IMDC 'Hyperion'-class Frigate">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>-300</Z>
+          </Position>
+          <BeaconText>IMDC 'Hyperion'-class Frigate</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- convoys - mix -->
+	    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>IMDC Transport Convoy Mix</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>12</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Transport 'Bumblebee'">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>IMDC Transport 'Bumblebee'</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="IMDC Mining Rig 'Termite'">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>150</Z>
+          </Position>
+          <BeaconText>IMDC Mining Rig 'Termite'</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="IMDC Mobile Refinery">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>-100</Z>
+          </Position>
+          <BeaconText>IMDC Mobile Refinery</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+		 <Prefab SubtypeId="IMDC Grinding Rig 'Recycler'">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>250</Z>
+          </Position>
+          <BeaconText>IMDC Grinding Rig 'Recycler'</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+        <Prefab SubtypeId="IMDC 'Hyperion'-class Frigate">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>-300</Z>
+          </Position>
+          <BeaconText>IMDC 'Hyperion'-class Frigate</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Convoys IMDC Transport Convoy Refinerys -->
+	    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>IMDC Transport Convoy Refinerys</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>11</Frequency>
+      <Prefabs>
+		<Prefab SubtypeId="IMDC Mobile Refinery">
+          <Position>
+            <X>-100</X>
+            <Y>0.0</Y>
+            <Z>-100</Z>
+          </Position>
+          <BeaconText>IMDC Mobile Refinery</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="IMDC Mobile Refinery">
+          <Position>
+            <X>100</X>
+            <Y>0.0</Y>
+            <Z>-100</Z>
+          </Position>
+          <BeaconText>IMDC Mobile Refinery</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="IMDC Mobile Refinery">
+          <Position>
+            <X>100</X>
+            <Y>0.0</Y>
+            <Z>100</Z>
+          </Position>
+          <BeaconText>IMDC Mobile Refinery</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="IMDC Mobile Refinery">
+          <Position>
+            <X>-100</X>
+            <Y>0.0</Y>
+            <Z>100</Z>
+          </Position>
+          <BeaconText>IMDC Mobile Refinery</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+        <Prefab SubtypeId="IMDC 'Hyperion'-class Frigate">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>IMDC 'Hyperion'-class Frigate</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Convoys IMDC Transport Convoy Bumblebee -->
+	    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>IMDC Transport Convoy Bumblebee</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>10</Frequency>
+      <Prefabs>
+		<Prefab SubtypeId="IMDC Transport 'Bumblebee'">
+          <Position>
+            <X>-100</X>
+            <Y>0.0</Y>
+            <Z>-100</Z>
+          </Position>
+          <BeaconText>IMDC Transport 'Bumblebee'</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="IMDC Transport 'Bumblebee'">
+          <Position>
+            <X>100</X>
+            <Y>0.0</Y>
+            <Z>-100</Z>
+          </Position>
+          <BeaconText>IMDC Transport 'Bumblebee'</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="IMDC Transport 'Bumblebee'">
+          <Position>
+            <X>100</X>
+            <Y>0.0</Y>
+            <Z>100</Z>
+          </Position>
+          <BeaconText>IMDC Transport 'Bumblebee'</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="IMDC Transport 'Bumblebee'">
+          <Position>
+            <X>-100</X>
+            <Y>0.0</Y>
+            <Z>100</Z>
+          </Position>
+          <BeaconText>IMDC Transport 'Bumblebee'</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+        <Prefab SubtypeId="IMDC Transport 'Bumblebee'">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>IMDC 'Hyperion'-class Frigate</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- convoys mix 1 -->
+  </SpawnGroups>
+</Definitions>
+

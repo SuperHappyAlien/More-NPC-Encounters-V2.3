@@ -1,0 +1,1040 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+<!-- Stations IMDC Defense Station 9542 - Ships Atlas-class Frigate Mk. I -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Atlas-class Frigate Mk. I</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>7</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Atlas-class Frigate Mk. I">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>Atlas-class Frigate Mk. I</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(IMDC)Atlas-class Frigate Mk. I</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>true</IsEncounter>
+	  	  <IsPirate>true</IsPirate>
+	  <ReactorsOn>true</ReactorsOn>
+      <Speed>0.0</Speed>
+      <Frequency>20.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Atlas-class Frigate Mk. I">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Atlas-class Frigate Mk. I - IMDC Atlas-class Frigate -->
+	    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>IMDC Atlas-class Frigate</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>true</IsEncounter>
+	  	  <IsPirate>true</IsPirate>
+	  <ReactorsOn>true</ReactorsOn>
+      <Speed>0.0</Speed>
+      <Frequency>20.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Atlas-class Frigate">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>IMDC Atlas-class Frigate</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>7</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Atlas-class Frigate">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>IMDC Atlas-class Frigate</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Mars)(IMDC)IMDC Atlas-class Frigate(Atmo)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Atlas-class Frigate">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>20</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- IMDC Atlas-class Frigate - IMDC Atlas Frigate -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Atlas-class Frigate Mk. I</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>7</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Atlas Frigate">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>IMDC Atlas Frigate</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+      <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(IMDC)IMDC Atlas Frigate</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>true</IsEncounter>
+	  	  <IsPirate>true</IsPirate>
+	  <ReactorsOn>true</ReactorsOn>
+      <Speed>0.0</Speed>
+      <Frequency>20.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Atlas Frigate">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Mars)(IMDC)IMDC Atlas Frigate(Atmo)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Atlas Frigate">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>20</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- IMDC Atlas Frigate - IMDC Titan Cruiser -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>IMDC Titan Cruiser</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>6</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Titan Cruiser">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>IMDC Titan Cruiser</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(IMDC)IMDC Titan Cruiser</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>true</IsEncounter>
+	  	  <IsPirate>true</IsPirate>
+	  <ReactorsOn>true</ReactorsOn>
+      <Speed>0.0</Speed>
+      <Frequency>20.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Titan Cruiser">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- IMDC Titan Cruiser - IMDC Europa Carrier -->
+	    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>IMDC Europa Carrier</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>7</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Europa Carrier">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>IMDC Europa Carrier</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(IMDC)IMDC Europa Carrier</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>true</IsEncounter>
+	  	  <IsPirate>true</IsPirate>
+	  <ReactorsOn>true</ReactorsOn>
+      <Speed>0.0</Speed>
+      <Frequency>20.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Europa Carrier">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- IMDC Europa Carrier - IMDC Protos-class Corvette Mk.2 -->
+	    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>IMDC Protos-class Corvette Mk.2</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>9</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Protos-class Corvette Mk.2">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>IMDC Protos-class Corvette Mk.2</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	  <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(IMDC)IMDC Protos-class Corvette Mk.2</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>true</IsEncounter>
+	  	  <IsPirate>true</IsPirate>
+	  <ReactorsOn>true</ReactorsOn>
+      <Speed>0.0</Speed>
+      <Frequency>20.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Protos-class Corvette Mk.2">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Mars)(IMDC)IMDC Protos-class Corvette Mk.2(Atmo)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Protos-class Corvette Mk.2">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- IMDC Protos-class Corvette Mk.2 - IMDC Protos Corvette -->
+	    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>IMDC Protos Corvette</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>9</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Protos Corvette">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>IMDC Protos Corvette</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	  <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(IMDC)IMDC Protos Corvette</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>true</IsEncounter>
+	  	  <IsPirate>true</IsPirate>
+	  <ReactorsOn>true</ReactorsOn>
+      <Speed>0.0</Speed>
+      <Frequency>20.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Protos Corvette">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Mars)(IMDC)IMDC Protos Corvette(Atmo)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Protos Corvette">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- IMDC Protos Corvette - IMDC Proteus-class Frigate -->
+	    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>IMDC Proteus-class Frigate</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>9</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Proteus-class Frigate">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>IMDC Proteus-class Frigate</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	  <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(IMDC)IMDC Proteus-class Frigate</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>true</IsEncounter>
+	  	  <IsPirate>true</IsPirate>
+	  <ReactorsOn>true</ReactorsOn>
+      <Speed>0.0</Speed>
+      <Frequency>20.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Proteus-class Frigate">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- IMDC Protos Corvette - IMDC Mobile Refinery -->
+	    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>IMDC Mobile Refinery</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>10</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Mobile Refinery">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>IMDC Mobile Refinery</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>	
+<!-- IMDC Mobile Refinery - IMDC Callisto-class Carrier Mk.3 -->
+	    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>IMDC Callisto-class Carrier Mk.3</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>6</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Mobile Refinery">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>IMDC Callisto-class Carrier Mk.3</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	  <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(IMDC)IMDC Callisto-class Carrier Mk.3</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>true</IsEncounter>
+	  	  <IsPirate>true</IsPirate>
+	  <ReactorsOn>true</ReactorsOn>
+      <Speed>0.0</Speed>
+      <Frequency>20.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Callisto-class Carrier Mk.3">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- IMDC Callisto-class Carrier Mk.3 - IMDC Grinding Rig 'Recycler' -->
+	    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>IMDC Grinding Rig 'Recycler'</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>10</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Grinding Rig 'Recycler'">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>IMDC Grinding Rig 'Recycler'</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- IMDC Grinding Rig 'Recycler' - IMDC Mining Rig 'Termite' -->
+	    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>IMDC Mining Rig 'Termite'</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>10</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Mining Rig 'Termite'">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>IMDC Mining Rig 'Termite'</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- IMDC Mining Rig 'Termite' - IMDC Transport 'Bumblebee' -->
+	    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>IMDC Transport 'Bumblebee'</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>10</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Transport 'Bumblebee'">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>IMDC Transport 'Bumblebee'</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- IMDC Transport 'Bumblebee'' - IMDC 'Hyperion'-class Frigate -->
+	    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>IMDC 'Hyperion'-class Frigate</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>8</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC 'Hyperion'-class Frigate">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>IMDC 'Hyperion'-class Frigate</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	  <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(IMDC)IMDC 'Hyperion'-class Frigate</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>true</IsEncounter>
+	  	  <IsPirate>true</IsPirate>
+	  <ReactorsOn>true</ReactorsOn>
+      <Speed>0.0</Speed>
+      <Frequency>20.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC 'Hyperion'-class Frigate">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- IMDC 'Hyperion'-class Frigate - IMDC Cerberus Destroyer Mk. III -->
+	  <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(IMDC)IMDC Cerberus Destroyer Mk. III</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>true</IsEncounter>
+	  	  <IsPirate>true</IsPirate>
+	  <ReactorsOn>true</ReactorsOn>
+      <Speed>0.0</Speed>
+      <Frequency>20.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Cerberus Destroyer Mk. III">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+		<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>IMDC Cerberus Destroyer Mk. III</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>false</IsEncounter>
+      <IsPirate>true</IsPirate>
+      <ReactorsOn>true</ReactorsOn>
+      <Frequency>400.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Cerberus Destroyer Mk. III">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>IMDC Cerberus Destroyer Mk. III</BeaconText>
+          <Speed>0.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Ships IMDC IMDC Cerberus Destroyer Mk. III - Drones IMDC F-85 Eagle -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>F-85 Eagle</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>false</IsEncounter>
+      <IsPirate>true</IsPirate>
+      <ReactorsOn>true</ReactorsOn>
+      <Frequency>400.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="F-85 Eagle">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>F-85 Eagle</BeaconText>
+          <Speed>0.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>F-85 Eagle - S</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>false</IsEncounter>
+      <IsPirate>true</IsPirate>
+      <ReactorsOn>true</ReactorsOn>
+      <Frequency>400.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="F-85 Eagle - S">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>F-85 Eagle</BeaconText>
+          <Speed>0.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- F-85 Eagle - IMDC F-10 Vulture -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>IMDC F-10 Vulture</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>false</IsEncounter>
+      <IsPirate>true</IsPirate>
+      <ReactorsOn>true</ReactorsOn>
+      <Frequency>400.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC F-10 Vulture">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>IMDC F-10 Vulture</BeaconText>
+          <Speed>0.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- IMDC F-10 Vulture - Hydra Patrol Craft -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>IMDC Hydra Patrol Craft - D</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>false</IsEncounter>
+      <IsPirate>true</IsPirate>
+      <ReactorsOn>true</ReactorsOn>
+      <Frequency>300.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Hydra Patrol Craft - D">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>IMDC Hydra Patrol Craft - D</BeaconText>
+          <Speed>0.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Hydra Patrol Craft - IMDC F-86 Harrier -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>IMDC F-86 Harrier</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>false</IsEncounter>
+      <IsPirate>true</IsPirate>
+      <ReactorsOn>true</ReactorsOn>
+      <Frequency>400.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC F-86 Harrier">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>IMDC F-86 Harrier</BeaconText>
+          <Speed>0.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Drones IMDC F-86 Harrier - IMDC V-11 Osprey  -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>IMDC V-11 Osprey</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>false</IsEncounter>
+      <IsPirate>true</IsPirate>
+      <ReactorsOn>true</ReactorsOn>
+      <Frequency>400.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC V-11 Osprey">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>IMDC V-11 Osprey</BeaconText>
+          <Speed>0.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Drones IMDC V-11 Osprey - Ground vehicles - IMDC M-5 Ocelot  -->
+<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Mars)(IMDC)IMDC M-5 Ocelot(Inst-1)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>1</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC M-5 Ocelot">
+          <Position>
+            <X>0.0</X>
+            <Y>20</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- IMDC M-5 Ocelot - IMDC M12 Puma -->
+<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Mars)(IMDC)IMDC M-5 Ocelot(Inst-1)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>1</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC M-5 Ocelot">
+          <Position>
+            <X>0.0</X>
+            <Y>20</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- IMDC M12 Puma - IMDC M-71 Rhino - -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Mars)(IMDC)IMDC M-71 Rhino(Inst-1)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>1</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC M-71 Rhino">
+          <Position>
+            <X>0.0</X>
+            <Y>20</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>	
+<!-- IMDC M-71 Rhino - convoys - mix -->
+	    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>IMDC Transport Convoy Mix</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>13</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Transport 'Bumblebee'">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>IMDC Transport 'Bumblebee'</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="IMDC Mining Rig 'Termite'">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>150</Z>
+          </Position>
+          <BeaconText>IMDC Mining Rig 'Termite'</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="IMDC Mobile Refinery">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>-100</Z>
+          </Position>
+          <BeaconText>IMDC Mobile Refinery</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+        <Prefab SubtypeId="IMDC 'Hyperion'-class Frigate">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>-300</Z>
+          </Position>
+          <BeaconText>IMDC 'Hyperion'-class Frigate</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- convoys - mix -->
+	    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>IMDC Transport Convoy Mix</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>12</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Transport 'Bumblebee'">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>IMDC Transport 'Bumblebee'</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="IMDC Mining Rig 'Termite'">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>150</Z>
+          </Position>
+          <BeaconText>IMDC Mining Rig 'Termite'</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="IMDC Mobile Refinery">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>-100</Z>
+          </Position>
+          <BeaconText>IMDC Mobile Refinery</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+		 <Prefab SubtypeId="IMDC Grinding Rig 'Recycler'">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>250</Z>
+          </Position>
+          <BeaconText>IMDC Grinding Rig 'Recycler'</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+        <Prefab SubtypeId="IMDC 'Hyperion'-class Frigate">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>-300</Z>
+          </Position>
+          <BeaconText>IMDC 'Hyperion'-class Frigate</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Convoys IMDC Transport Convoy Refinerys -->
+	    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>IMDC Transport Convoy Refinerys</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>11</Frequency>
+      <Prefabs>
+		<Prefab SubtypeId="IMDC Mobile Refinery">
+          <Position>
+            <X>-100</X>
+            <Y>0.0</Y>
+            <Z>-100</Z>
+          </Position>
+          <BeaconText>IMDC Mobile Refinery</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="IMDC Mobile Refinery">
+          <Position>
+            <X>100</X>
+            <Y>0.0</Y>
+            <Z>-100</Z>
+          </Position>
+          <BeaconText>IMDC Mobile Refinery</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="IMDC Mobile Refinery">
+          <Position>
+            <X>100</X>
+            <Y>0.0</Y>
+            <Z>100</Z>
+          </Position>
+          <BeaconText>IMDC Mobile Refinery</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="IMDC Mobile Refinery">
+          <Position>
+            <X>-100</X>
+            <Y>0.0</Y>
+            <Z>100</Z>
+          </Position>
+          <BeaconText>IMDC Mobile Refinery</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+        <Prefab SubtypeId="IMDC 'Hyperion'-class Frigate">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>IMDC 'Hyperion'-class Frigate</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Convoys IMDC Transport Convoy Bumblebee -->
+	    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>IMDC Transport Convoy Bumblebee</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>10</Frequency>
+      <Prefabs>
+		<Prefab SubtypeId="IMDC Transport 'Bumblebee'">
+          <Position>
+            <X>-100</X>
+            <Y>0.0</Y>
+            <Z>-100</Z>
+          </Position>
+          <BeaconText>IMDC Transport 'Bumblebee'</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="IMDC Transport 'Bumblebee'">
+          <Position>
+            <X>100</X>
+            <Y>0.0</Y>
+            <Z>-100</Z>
+          </Position>
+          <BeaconText>IMDC Transport 'Bumblebee'</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="IMDC Transport 'Bumblebee'">
+          <Position>
+            <X>100</X>
+            <Y>0.0</Y>
+            <Z>100</Z>
+          </Position>
+          <BeaconText>IMDC Transport 'Bumblebee'</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="IMDC Transport 'Bumblebee'">
+          <Position>
+            <X>-100</X>
+            <Y>0.0</Y>
+            <Z>100</Z>
+          </Position>
+          <BeaconText>IMDC Transport 'Bumblebee'</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+        <Prefab SubtypeId="IMDC Transport 'Bumblebee'">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>IMDC 'Hyperion'-class Frigate</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- convoys mix 1 -->
+  </SpawnGroups>
+</Definitions>
+

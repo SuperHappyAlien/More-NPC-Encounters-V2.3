@@ -1,0 +1,276 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+   <!-- Stations IMDC Processing Station -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Europa)(IMDC)IMDC Processing Station(Inst-1)(Unique)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>1</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Processing Station">
+          <Position>
+            <X>0.0</X>
+            <Y>2900</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(IMDC)IMDC Processing Station</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>true</IsEncounter>
+	  <IsPirate>true</IsPirate>
+	  <ReactorsOn>true</ReactorsOn>
+      <Speed>0.0</Speed>
+      <Frequency>20.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Processing Station">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+ <!-- IMDC Processing Station - IMDC Station Dry Dock -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Europa)(IMDC)IMDC Station Dry Dock(Inst-1)(Unique)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>1</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Station Dry Dock">
+          <Position>
+            <X>0.0</X>
+            <Y>2900</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(IMDC)IMDC Station Dry Dock</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>true</IsEncounter>
+	  <IsPirate>true</IsPirate>
+	  <ReactorsOn>true</ReactorsOn>
+      <Speed>0.0</Speed>
+      <Frequency>20.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Station Dry Dock">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup> 
+ <!-- IMDC Station Dry Dock - IMDC Station Barracks -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Europa)(IMDC)IMDC Station Barracks(Inst-1)(Unique)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>1</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Station Barracks">
+          <Position>
+            <X>0.0</X>
+            <Y>2900</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(IMDC)IMDC Station Barracks</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>true</IsEncounter>
+	  <IsPirate>true</IsPirate>
+	  <ReactorsOn>true</ReactorsOn>
+      <Speed>0.0</Speed>
+      <Frequency>20.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Station Barracks">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup> 
+ <!-- IMDC Station Barracks - IMDC Ice Processing -->
+ 	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Europa)(IMDC)IMDC Ice Processing(Inst-1)(Unique)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>1</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Ice Processing">
+          <Position>
+            <X>0.0</X>
+            <Y>2900</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+		  <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(IMDC)IMDC Ice Processing</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>true</IsEncounter>
+	  	  <IsPirate>true</IsPirate>
+	  <ReactorsOn>true</ReactorsOn>
+      <Speed>0.0</Speed>
+      <Frequency>20.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Ice Processing">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+ <!-- IMDC Ice Processing - IMDC Construction Platform -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Europa)(IMDC)IMDC Construction Platform(Inst-1)(Unique)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>1</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Construction Platform">
+          <Position>
+            <X>0.0</X>
+            <Y>2900</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+		  <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(IMDC)IMDC Construction Platform</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>true</IsEncounter>
+	  	  <IsPirate>true</IsPirate>
+	  <ReactorsOn>true</ReactorsOn>
+      <Speed>0.0</Speed>
+      <Frequency>20.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Construction Platform">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup> 
+ <!-- IMDC Construction Platform - IMDC Station 4267 -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Europa)(IMDC)IMDC Station 4267(Inst-1)(Unique)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>1</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Station 4267">
+          <Position>
+            <X>0.0</X>
+            <Y>2900</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- IMDC Station 4267 - IMDC Supply Station 1781 -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Europa)(IMDC)IMDC Supply Station 1781(Inst-1)(Unique)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Supply Station 1781">
+          <Position>
+            <X>0.0</X>
+            <Y>2900</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- IMDC Supply Station 1781 - IMDC Defense Station 9542 -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Europa)(IMDC)IMDC Defense Station 9542(Inst-1)(Unique)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="IMDC Defense Station 9542">
+          <Position>
+            <X>0.0</X>
+            <Y>2900</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+  </SpawnGroups>
+</Definitions>
+

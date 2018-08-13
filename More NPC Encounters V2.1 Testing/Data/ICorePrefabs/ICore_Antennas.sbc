@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PirateAntennas>
+
+    <Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>Fleet Help</SubtypeId>
+	</Id>
+	<Name>Fleet Help</Name>
+	<SpawnDistance>50</SpawnDistance>
+	<SpawnTimeMs>30000</SpawnTimeMs>
+	<FirstSpawnTimeMs>30</FirstSpawnTimeMs> 
+	<MaxDrones>3</MaxDrones> 
+	<SpawnGroups>
+    <Group>Kariama Sentry Fighter (Vanilla)</Group>	
+    <Group>Cyclops Caravelle (Vanilla)</Group>
+    <Group>Stygian Industria Exploration Frigate (Vanilla)</Group>	
+	</SpawnGroups>
+    </Antenna>
+	
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>Communication Station</SubtypeId>
+	</Id>
+	<Name>Communication Station</Name>
+	<SpawnDistance>1000</SpawnDistance>
+	<SpawnTimeMs>30000</SpawnTimeMs>
+	<FirstSpawnTimeMs>30</FirstSpawnTimeMs> 
+	<MaxDrones>3</MaxDrones> 
+	<SpawnGroups>
+    <Group>Kariama Sentry Fighter (Vanilla)</Group>	
+    <Group>Cyclops Caravelle (Vanilla)</Group>
+    <Group>Stygian Industria Exploration Frigate (Vanilla)</Group>	
+	</SpawnGroups>
+    </Antenna>
+    
+  </PirateAntennas>
+</Definitions>

@@ -1,0 +1,421 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PirateAntennas>
+<!-- IMDC Atlas Frigate -->
+<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>IMDC Atlas Frigate</SubtypeId>
+	</Id>
+	<Name>IMDC Atlas Frigate</Name>
+	<SpawnDistance>150</SpawnDistance>
+	<SpawnTimeMs>9000</SpawnTimeMs>
+	<FirstSpawnTimeMs>8000</FirstSpawnTimeMs> 
+	<MaxDrones>1</MaxDrones> 
+	<SpawnGroups>
+    <Group>IMDC F-10 Vulture</Group>		
+	</SpawnGroups>
+    </Antenna>
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>IMDC Atlas Frigate Under Fire</SubtypeId>
+	</Id>
+	<Name>IMDC Atlas Frigate Under Fire</Name>
+	<SpawnDistance>250</SpawnDistance>
+	<SpawnTimeMs>3500</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>2</MaxDrones> 
+	<SpawnGroups>
+    <Group>IMDC F-86 Harrier</Group>
+    <Group>F-85 Eagle</Group>		
+	</SpawnGroups>
+    </Antenna>
+<!-- IMDC Atlas Frigate - Atlas-class Frigate Mk. I -->
+<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>Atlas-class Frigate Mk. I</SubtypeId>
+	</Id>
+	<Name>Atlas-class Frigate Mk. I</Name>
+	<SpawnDistance>150</SpawnDistance>
+	<SpawnTimeMs>9000</SpawnTimeMs>
+	<FirstSpawnTimeMs>8000</FirstSpawnTimeMs> 
+	<MaxDrones>1</MaxDrones> 
+	<SpawnGroups>
+    <Group>IMDC F-10 Vulture</Group>		
+	</SpawnGroups>
+    </Antenna>
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>Atlas-class Frigate Mk. I Under Fire</SubtypeId>
+	</Id>
+	<Name>Atlas-class Frigate Mk. I Under Fire</Name>
+	<SpawnDistance>250</SpawnDistance>
+	<SpawnTimeMs>3500</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>2</MaxDrones> 
+	<SpawnGroups>
+    <Group>IMDC F-86 Harrier</Group>
+    <Group>F-85 Eagle</Group>		
+	</SpawnGroups>
+    </Antenna>
+<!-- Atlas-class Frigate Mk. I - IMDC Atlas-class Frigate -->
+<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>IMDC Atlas-class Frigate</SubtypeId>
+	</Id>
+	<Name>IMDC Atlas-class Frigate</Name>
+	<SpawnDistance>150</SpawnDistance>
+	<SpawnTimeMs>9000</SpawnTimeMs>
+	<FirstSpawnTimeMs>8000</FirstSpawnTimeMs> 
+	<MaxDrones>1</MaxDrones> 
+	<SpawnGroups>
+    <Group>IMDC F-10 Vulture</Group>		
+	</SpawnGroups>
+    </Antenna>
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>IMDC Atlas-class Frigate Under Fire</SubtypeId>
+	</Id>
+	<Name>IMDC Atlas-class Frigate Under Fire</Name>
+	<SpawnDistance>250</SpawnDistance>
+	<SpawnTimeMs>3500</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>2</MaxDrones> 
+	<SpawnGroups>
+    <Group>IMDC F-86 Harrier</Group>
+    <Group>F-85 Eagle</Group>		
+	</SpawnGroups>
+    </Antenna>
+<!-- IMDC Atlas-class Frigate - IMDC Callisto-class Carrier Mk.3 -->
+<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>IMDC Callisto-class Carrier Mk.3</SubtypeId>
+	</Id>
+	<Name>IMDC Callisto-class Carrier Mk.3</Name>
+	<SpawnDistance>150</SpawnDistance>
+	<SpawnTimeMs>9000</SpawnTimeMs>
+	<FirstSpawnTimeMs>8000</FirstSpawnTimeMs> 
+	<MaxDrones>1</MaxDrones> 
+	<SpawnGroups>
+    <Group>IMDC F-10 Vulture</Group>		
+	</SpawnGroups>
+    </Antenna>
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>IMDC Callisto-class Carrier Mk.3 Under Fire</SubtypeId>
+	</Id>
+	<Name>IMDC Callisto-class Carrier Mk.3 Under Fire</Name>
+	<SpawnDistance>250</SpawnDistance>
+	<SpawnTimeMs>3500</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>2</MaxDrones> 
+	<SpawnGroups>
+    <Group>IMDC F-86 Harrier</Group>
+    <Group>F-85 Eagle</Group>		
+	</SpawnGroups>
+    </Antenna>
+<!-- IMDC Callisto-class Carrier Mk.3 - IMDC Cerberus Destroyer -->
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>IMDC Cerberus Destroyer</SubtypeId>
+	</Id>
+	<Name>IMDC Cerberus Destroyer</Name>
+	<SpawnDistance>250</SpawnDistance>
+	<SpawnTimeMs>3500</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>2</MaxDrones> 
+	<SpawnGroups>
+    <Group>IMDC F-86 Harrier</Group>
+    <Group>F-85 Eagle</Group>		
+	</SpawnGroups>
+    </Antenna>
+<!-- IMDC Cerberus Destroyer- Atlas-class Frigate Mk. I -->
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>IMDC Europa Carrier</SubtypeId>
+	</Id>
+	<Name>IMDC Europa Carrier</Name>
+	<SpawnDistance>250</SpawnDistance>
+	<SpawnTimeMs>3500</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>2</MaxDrones> 
+	<SpawnGroups>
+    <Group>IMDC F-86 Harrier</Group>
+    <Group>F-85 Eagle</Group>		
+	</SpawnGroups>
+    </Antenna>
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>IMDC Europa Carrier Under Fire</SubtypeId>
+	</Id>
+	<Name>IMDC Europa Carrier Under Fire</Name>
+	<SpawnDistance>250</SpawnDistance>
+	<SpawnTimeMs>3500</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>2</MaxDrones> 
+	<SpawnGroups>
+    <Group>IMDC Hydra Patrol Craft - D</Group>
+    <Group>IMDC V-11 Osprey</Group>		
+	</SpawnGroups>
+    </Antenna>
+<!-- IMDC Cerberus Destroyer - IMDC 'Hyperion'-class Frigate -->
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>IMDC 'Hyperion'-class Frigate</SubtypeId>
+	</Id>
+	<Name>IMDC 'Hyperion'-class Frigate</Name>
+	<SpawnDistance>250</SpawnDistance>
+	<SpawnTimeMs>3500</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>2</MaxDrones> 
+	<SpawnGroups>
+    <Group>IMDC F-86 Harrier</Group>
+    <Group>F-85 Eagle</Group>		
+	</SpawnGroups>
+    </Antenna>
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>IMDC 'Hyperion'-class Frigate Under Fire</SubtypeId>
+	</Id>
+	<Name>IMDC 'Hyperion'-class Frigate Under Fire</Name>
+	<SpawnDistance>250</SpawnDistance>
+	<SpawnTimeMs>3500</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>2</MaxDrones> 
+	<SpawnGroups>
+    <Group>IMDC Hydra Patrol Craft - D</Group>
+    <Group>IMDC V-11 Osprey</Group>		
+	</SpawnGroups>
+    </Antenna>
+<!-- IMDC 'Hyperion'-class Frigate - IMDC Protos Corvette -->
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>IMDC Protos Corvette</SubtypeId>
+	</Id>
+	<Name>IMDC Protos Corvette</Name>
+	<SpawnDistance>250</SpawnDistance>
+	<SpawnTimeMs>3500</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>1</MaxDrones> 
+	<SpawnGroups>
+   <Group>IMDC F-10 Vulture</Group>		
+	</SpawnGroups>
+    </Antenna>
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>IMDC Protos Corvette Under Fire</SubtypeId>
+	</Id>
+	<Name>IMDC Protos Corvette Under Fire</Name>
+	<SpawnDistance>250</SpawnDistance>
+	<SpawnTimeMs>3500</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>2</MaxDrones> 
+	<SpawnGroups>
+    <Group>IMDC F-86 Harrier</Group>
+    <Group>F-85 Eagle</Group>	
+	</SpawnGroups>
+    </Antenna>
+<!-- IMDC Protos Corvette - IMDC Protos-class Corvette Mk.2 -->
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>IMDC Protos-class Corvette Mk.2</SubtypeId>
+	</Id>
+	<Name>IMDC Protos-class Corvette Mk.2</Name>
+	<SpawnDistance>250</SpawnDistance>
+	<SpawnTimeMs>3500</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>1</MaxDrones> 
+	<SpawnGroups>
+    <Group>IMDC F-10 Vulture</Group>		
+	</SpawnGroups>
+    </Antenna>
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>IMDC Protos-class Corvette Mk.2 Under Fire</SubtypeId>
+	</Id>
+	<Name>IMDC Protos-class Corvette Mk.2 Under Fire</Name>
+	<SpawnDistance>250</SpawnDistance>
+	<SpawnTimeMs>3500</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>2</MaxDrones> 
+	<SpawnGroups>
+    <Group>IMDC F-86 Harrier</Group>
+    <Group>F-85 Eagle</Group>	
+	</SpawnGroups>
+    </Antenna>
+<!-- IMDC Protos-class Corvette Mk.2 - IMDC Titan Cruiser -->
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>IMDC Titan Cruiser</SubtypeId>
+	</Id>
+	<Name>IMDC Titan Cruiser</Name>
+	<SpawnDistance>250</SpawnDistance>
+	<SpawnTimeMs>3500</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>1</MaxDrones> 
+	<SpawnGroups>
+    <Group>IMDC F-10 Vulture</Group>		
+	</SpawnGroups>
+    </Antenna>
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>IMDC Titan Cruiser Under Fire</SubtypeId>
+	</Id>
+	<Name>IMDC Titan Cruiser Under Fire</Name>
+	<SpawnDistance>250</SpawnDistance>
+	<SpawnTimeMs>3500</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>2</MaxDrones> 
+	<SpawnGroups>
+    <Group>IMDC F-86 Harrier</Group>
+    <Group>F-85 Eagle</Group>	
+	</SpawnGroups>
+    </Antenna>
+<!-- IMDC Titan Cruiser - IMDC Station Barracks -->
+    <Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>IMDC Station Barracks</SubtypeId>
+	</Id>
+	<Name>IMDC Station Barracks</Name>
+	<SpawnDistance>150</SpawnDistance>
+	<SpawnTimeMs>5000</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>2</MaxDrones> 
+	<SpawnGroups>
+    <Group>F-85 Eagle</Group>
+    <Group>IMDC V-11 Osprey</Group>	
+	</SpawnGroups>
+    </Antenna>	
+<!-- IMDC Station Barracks - IMDC Station Dry Dock -->
+    <Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>IMDC Station Dry Dock</SubtypeId>
+	</Id>
+	<Name>IMDC Station Dry Dock</Name>
+	<SpawnDistance>150</SpawnDistance>
+	<SpawnTimeMs>5000</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>2</MaxDrones> 
+	<SpawnGroups>
+    <Group>F-85 Eagle</Group>
+    <Group>IMDC V-11 Osprey</Group>	
+	</SpawnGroups>
+    </Antenna>	
+<!-- IMDC Station Dry Dock - IMDC Ice Processing -->
+    <Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>IMDC Ice Processing</SubtypeId>
+	</Id>
+	<Name>IMDC Ice Processing</Name>
+	<SpawnDistance>150</SpawnDistance>
+	<SpawnTimeMs>5000</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>2</MaxDrones> 
+	<SpawnGroups>
+    <Group>F-85 Eagle</Group>
+    <Group>IMDC V-11 Osprey</Group>	
+	</SpawnGroups>
+    </Antenna>	
+<!-- IMDC Ice Processing - IMDC Construction Platform -->
+    <Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>IMDC Construction Platform</SubtypeId>
+	</Id>
+	<Name>IMDC Construction Platform</Name>
+	<SpawnDistance>150</SpawnDistance>
+	<SpawnTimeMs>5000</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>2</MaxDrones> 
+	<SpawnGroups>
+    <Group>F-85 Eagle</Group>
+    <Group>IMDC V-11 Osprey</Group>	
+	</SpawnGroups>
+    </Antenna>	
+<!-- IMDC Construction Platform - IMDC Processing Station -->
+    <Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>IMDC Processing Station</SubtypeId>
+	</Id>
+	<Name>IMDC Processing Station</Name>
+	<SpawnDistance>150</SpawnDistance>
+	<SpawnTimeMs>5000</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>2</MaxDrones> 
+	<SpawnGroups>
+    <Group>F-85 Eagle</Group>
+    <Group>IMDC V-11 Osprey</Group>	
+	</SpawnGroups>
+    </Antenna>	
+<!-- IMDC Processing Station - IMDC Defense Station -->
+    <Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>IMDC Defense Station</SubtypeId>
+	</Id>
+	<Name>IMDC Defense Station</Name>
+	<SpawnDistance>150</SpawnDistance>
+	<SpawnTimeMs>3500</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>1</MaxDrones> 
+	<SpawnGroups>
+    <Group>F-85 Eagle</Group>		
+	</SpawnGroups>
+    </Antenna>	
+<!-- IMDC Defense Station - IMDC Defense Station -->		
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>Antenna 2 Tower</SubtypeId>
+	</Id>
+	<Name>Antenna 2 Tower</Name>
+	<SpawnDistance>150</SpawnDistance>
+	<SpawnTimeMs>3500</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>4</MaxDrones> 
+	<SpawnGroups>
+    <Group>F-85 Eagle</Group>
+	<Group>F-85 Eagle - S</Group>
+    <Group>IMDC Hydra Patrol Craft - D</Group>			
+	</SpawnGroups>
+    </Antenna>
+<!-- IMDC Defense Station - IMDC Defense Station -->	
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>Distress Beacon</SubtypeId>
+	</Id>
+	<Name>Distress Beacon</Name>
+	<SpawnDistance>150</SpawnDistance>
+	<SpawnTimeMs>3500</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>2</MaxDrones> 
+	<SpawnGroups>
+    <Group>F-85 Eagle</Group>		
+	</SpawnGroups>
+    </Antenna>
+<!-- IMDC Defense Station - IMDC Defense Station -->    
+  </PirateAntennas>
+</Definitions>

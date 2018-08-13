@@ -1,0 +1,255 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+  <!-- Junker Gunship --> 
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Junker Gunship</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>false</IsEncounter>
+      <IsPirate>true</IsPirate>
+      <ReactorsOn>true</ReactorsOn>
+      <Frequency>500.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Junker Gunship">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>Junker Gunship</BeaconText>
+          <Speed>0.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Junker Drone --> 
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Junker Drone</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>false</IsEncounter>
+      <IsPirate>true</IsPirate>
+      <ReactorsOn>true</ReactorsOn>
+      <Frequency>500.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Junker Drone">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>Junker Drone</BeaconText>
+          <Speed>0.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Junker Drone - Armadillo --> 	
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Junk)Armadillo(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Speed>0.0</Speed>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Armadillo">
+          <Position>
+            <X>0.0</X>
+            <Y>16</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Armadillo - Junker R Cargo -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(Junk)Junker R Cargo(Atmo)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>4</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Junker R Cargo">
+          <Position>
+            <X>0.0</X>
+            <Y>0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>20</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Junker R Cargo - Smuggler -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(Junk)Smuggler(Atmo)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Smuggler">
+          <Position>
+            <X>0.0</X>
+            <Y>0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>20</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Smuggler</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>4</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Smuggler">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>Smuggler</BeaconText>
+          <Speed>20.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>	
+<!-- Smuggler - Junker Airship -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(Junk)Junker Airship(Atmo)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>1</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Junker Airship">
+          <Position>
+            <X>0.0</X>
+            <Y>0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>5</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Junker Airship - Junker Airship Mk 4 -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(Junk)Junker Airship Mk 4(Atmo)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Junker Airship Mk 4">
+          <Position>
+            <X>0.0</X>
+            <Y>0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Junker Airship Mk 4 - Junker Airship Mk 5 -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Mars)(Alien)(Junk)Junker Airship Mk 5(Atmo)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Junker Airship Mk 5">
+          <Position>
+            <X>0.0</X>
+            <Y>0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Junker Airship Mk 5 - Nomad Cargo Ship -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Mars)(Alien)(Junk)Nomad Cargo Ship(Atmo)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Nomad Cargo Ship">
+          <Position>
+            <X>0.0</X>
+            <Y>0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Nomad Cargo Ship - Junker Cargo Ship Mk 1 -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Mars)(Alien)(Junk)(Atmo)Junker Cargo Ship Mk 1</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>3</Frequency>
+	  <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="Junker Cargo Ship Mk 1">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>Junker Cargo Ship</BeaconText>
+          <Speed>20</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Junker Cargo Ship Mk 1 - Junker Cargo Ship Mk 2 -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(Junk)(Atmo)Junker Cargo Ship Mk 2</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>3</Frequency>
+	  <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="Junker Cargo Ship Mk 2">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>Junker Cargo Ship</BeaconText>
+          <Speed>20</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Junker Cargo Ship Mk 2 -->  
+  </SpawnGroups>
+</Definitions>
+
