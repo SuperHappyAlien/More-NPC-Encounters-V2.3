@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PirateAntennas>
+
+    <Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>VC CAMB</SubtypeId>
+	</Id>
+	<Name>VC CAMB</Name>
+	<SpawnDistance>150</SpawnDistance>
+	<SpawnTimeMs>3500</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>1</MaxDrones> 
+	<SpawnGroups>
+    <Group>VC Strike Fighter</Group>		
+	</SpawnGroups>
+    </Antenna>
+	
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>VC Backup</SubtypeId>
+	</Id>
+	<Name>VC Backup</Name>
+	<SpawnDistance>2150</SpawnDistance>
+	<SpawnTimeMs>3500</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>1</MaxDrones> 
+	<SpawnGroups>
+    <Group>VC Strike Fighter</Group>		
+	</SpawnGroups>
+    </Antenna>
+	
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>VC Processing Station</SubtypeId>
+	</Id>
+	<Name>VC Processing Station</Name>
+	<SpawnDistance>350</SpawnDistance>
+	<SpawnTimeMs>3500</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs> 
+	<MaxDrones>1</MaxDrones> 
+	<SpawnGroups>
+    <Group>VC Tribute</Group>	
+	</SpawnGroups>
+    </Antenna>
+    
+  </PirateAntennas>
+</Definitions>

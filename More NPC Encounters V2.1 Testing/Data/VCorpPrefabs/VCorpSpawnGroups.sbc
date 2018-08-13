@@ -1,0 +1,484 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+<!-- VC Strike Fighter Drone -->  
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>VC Strike Fighter</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>false</IsEncounter>
+      <IsPirate>true</IsPirate>
+      <ReactorsOn>true</ReactorsOn>
+      <Frequency>500.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC Strike Fighter">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>VC Strike Fighter</BeaconText>
+          <Speed>0.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- VC Strike Fighter Drone - VC Carryall -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(VCOR)VC Carryall(Atmo)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC Carryall">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>20</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- VC C.A.M. Base 1 - VC Sky Fortress -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(VCOR)VC Sky Fortress(Atmo)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC Sky Fortress">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>20</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- VC Sky Fortress - VC Sky Fortress Fleet -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(VCOR)VC Sky Fortress Fleet(Atmo)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>1</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC Sky Fortress">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>20</Speed>
+        </Prefab>
+		<Prefab SubtypeId="VC IEA Interdictor">
+          <Position>
+            <X>250</X>
+            <Y>0.0</Y>
+            <Z>0</Z>
+          </Position>
+          <Speed>20</Speed>
+        </Prefab>
+		<Prefab SubtypeId="VC IEA Interdictor">
+          <Position>
+            <X>-250</X>
+            <Y>0.0</Y>
+            <Z>0</Z>
+          </Position>
+          <Speed>20</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- VC Sky Fortress Fleet - VC Tribute -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(VCOR)VC Tribute(Atmo)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>1</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC Tribute">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>20</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- VC Tribute - VC Tribute Fleet -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(VCOR)VC Tribute(Atmo)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>1</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC Tribute">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>20</Speed>
+        </Prefab>
+		<Prefab SubtypeId="VC IEA Interdictor">
+          <Position>
+            <X>250</X>
+            <Y>0.0</Y>
+            <Z>0</Z>
+          </Position>
+          <Speed>20</Speed>
+        </Prefab>
+		<Prefab SubtypeId="VC IEA Interdictor">
+          <Position>
+            <X>-250</X>
+            <Y>0.0</Y>
+            <Z>0</Z>
+          </Position>
+          <Speed>20</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- VC Tribute Fleet - VC IEA Frigate -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(VCOR)VC IEA Frigate(Atmo)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>1</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC IEA Frigate">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>20</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- VC IEA Frigate - VC IEA Frigate Fleet -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(VCOR)VC IEA Frigate(Atmo)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>1</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC IEA Frigate">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>150</Z>
+          </Position>
+          <Speed>20</Speed>
+        </Prefab>
+		<Prefab SubtypeId="VC Tribute">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>20</Speed>
+        </Prefab>
+		<Prefab SubtypeId="VC IEA Interdictor">
+          <Position>
+            <X>250</X>
+            <Y>0.0</Y>
+            <Z>0</Z>
+          </Position>
+          <Speed>20</Speed>
+        </Prefab>
+		<Prefab SubtypeId="VC IEA Interdictor">
+          <Position>
+            <X>-250</X>
+            <Y>0.0</Y>
+            <Z>0</Z>
+          </Position>
+          <Speed>20</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- VC IEA Frigate Fleet - VC Processing Station -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>VC Processing Station</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsEncounter>true</IsEncounter>
+	  <IsPirate>true</IsPirate>
+	  <ReactorsOn>true</ReactorsOn>
+      <Speed>0.0</Speed>
+      <Frequency>20.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC Processing Station">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(VCOR)(Moon)VC Processing Station(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC Processing Station">
+          <Position>
+            <X>0</X>
+            <Y>3200</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- VC Processing Station - VC Operations Support Vessel “OSV” -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>VC Operations Support Vessel “OSV”</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>7</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC Operations Support Vessel “OSV”">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>VC Operations Support Vessel “OSV”</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(VCOR)(Moon)VC Operations Support Vessel “OSV”(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC Operations Support Vessel “OSV”">
+          <Position>
+            <X>0</X>
+            <Y>3200</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- VC Operations Support Vessel “OSV” - VC Transfer Station -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(VCOR)(Moon)VC Transfer Station(Inst-3)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC Transfer Station">
+          <Position>
+            <X>0</X>
+            <Y>3200</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- VC Transfer Station - VCS Beneficiation Mining Barge -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>VCS Beneficiation Mining Barge</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>7</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VCS Beneficiation Mining Barge">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>VCS Beneficiation Mining Barge</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(VCOR)(Moon)VCS Beneficiation Mining Barge(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VCS Beneficiation Mining Barge">
+          <Position>
+            <X>0</X>
+            <Y>3200</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- VCS Beneficiation Mining Barge - VCS Hermes Hauler -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>VCS Hermes Hauler</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>7</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VCS Hermes Hauler">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>VCS Hermes Hauler</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(VCOR)(Moon)VCS Hermes Hauler(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VCS Hermes Hauler">
+          <Position>
+            <X>0</X>
+            <Y>3200</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- VCS Hermes Hauler - VCS Uroboros Salvage Vessel -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>VCS Uroboros Salvage Vessel</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>7</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VCS Uroboros Salvage Vessel">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>VCS Uroboros Salvage Vessel</BeaconText>
+          <Speed>10.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(VCOR)(Moon)VCS Uroboros Salvage Vessel(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VCS Uroboros Salvage Vessel">
+          <Position>
+            <X>0</X>
+            <Y>3200</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- VCS Uroboros Salvage Vessel - VC ARV Armored Recon Vehicle -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(VCOR)(EarthLike)(Moon)VC ARV Armored Recon Vehicle(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC ARV Armored Recon Vehicle">
+          <Position>
+            <X>0</X>
+            <Y>10</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- VC ARV Armored Recon Vehicle -->
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(VCOR)VC C.A.M. Base(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC C.A.M. Base">
+          <Position>
+            <X>0.0</X>
+            <Y>1000.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	<!-- VC Carryall - VC C.A.M. Base -->
+  </SpawnGroups>
+</Definitions>
+

@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <SpawnGroups>
+	
+		<!-- Frequency Ranges: 0 to 1 -->
+		<!-- Ranges with a margin of more than 1 between them tend to have massively skewed spawn chances that favour the higher frequency -->
+		<!-- Keep within decimal range for best results -->
+		
+	<!-- ============================================================================================ -->
+	<!-- ============================================================================================ -->
+	<!-- ============================================================================================ -->
+	<!-- ============================================================================================ -->
+	<!-- ============================================================================================ -->
+	<!-- ============================================================================================ -->
+
+	
+	<!-- ****** 														LARGE CLASSIFICATION 													****** -->
+		
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>Mobile_Station</SubtypeId>
+			</Id>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<Frequency>7</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Mobile_Station">
+					<Position>
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Position>
+					<BeaconText>[Mobile Station] Summoner</BeaconText>
+					<Speed>5</Speed>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+		
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>Puller_SEV_T66</SubtypeId>
+			</Id>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<Frequency>9.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Puller_SEV_T66">
+					<Position>
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Position>
+					<BeaconText>[Support Capital] Puller</BeaconText>
+					<Speed>5</Speed>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>								
+		
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>Midspace_Mobile_Platform</SubtypeId>
+			</Id>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<Frequency>7</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Midspace_Mobile_Platform">
+					<Position>
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Position>
+					<BeaconText>[Mobile Station] Silent Dragon</BeaconText>
+					<Speed>5</Speed>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>			
+		
+		
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>Victus</SubtypeId>
+			</Id>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<Frequency>7</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Victus">
+					<Position>
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Position>
+					<BeaconText>[Battleship] Aeternus Victus</BeaconText>
+					<Speed>5</Speed>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>						
+				
+	</SpawnGroups>
+</Definitions>

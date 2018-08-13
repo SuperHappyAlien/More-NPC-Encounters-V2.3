@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PirateAntennas>
+    
+    <Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>NO TRESPASSERS Atmo</SubtypeId>
+	</Id>
+	<Name>NO TRESPASSERS Atmo</Name>
+	<SpawnDistance>80</SpawnDistance>
+	<SpawnTimeMs>30000</SpawnTimeMs>
+	<FirstSpawnTimeMs>6000</FirstSpawnTimeMs> 
+	<MaxDrones>3</MaxDrones> 
+	<SpawnGroups>
+	<Group>FleetingRival</Group>
+	<Group>StingingAdversary</Group>	
+    <Group>Pirate Gunboat Stingray</Group>	
+	</SpawnGroups>
+    </Antenna>
+	
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>Garfish</SubtypeId>
+	</Id>
+	<Name>Garfish</Name>
+	<SpawnDistance>120</SpawnDistance>
+	<SpawnTimeMs>3000</SpawnTimeMs>
+	<FirstSpawnTimeMs>600</FirstSpawnTimeMs> 
+	<MaxDrones>1</MaxDrones> 
+	<SpawnGroups>	
+    <Group>Pirate Gunboat Stingray</Group>	
+	</SpawnGroups>
+    </Antenna>
+	
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>Pirate Call Up</SubtypeId>
+	</Id>
+	<Name>Pirate Call Up</Name>
+	<SpawnDistance>250</SpawnDistance>
+	<SpawnTimeMs>30000</SpawnTimeMs>
+	<FirstSpawnTimeMs>16000</FirstSpawnTimeMs> 
+	<MaxDrones>5</MaxDrones> 
+	<SpawnGroups>	
+    <Group>Pirate Gunboat Stingray</Group>
+    <Group>Pirate PitchFork</Group>	
+	</SpawnGroups>
+    </Antenna>
+	
+	<Antenna>      
+      <Id>
+	  <TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	  <SubtypeId>EarthPirateLarge</SubtypeId>
+	</Id>
+	<Name>Headquarters Moon</Name>
+	<SpawnDistance>80</SpawnDistance>
+	<SpawnTimeMs>300000</SpawnTimeMs>
+	<FirstSpawnTimeMs>30000</FirstSpawnTimeMs>
+	<MaxDrones>6</MaxDrones>
+	<SpawnGroups>
+      <Group>Pirate Gunboat Stingray</Group>
+	  <Group>Eradicator_mk.1</Group>
+      <Group>Spur</Group>
+	  <Group>Tusk</Group>
+      <Group>Pirate PitchFork</Group>		  
+	</SpawnGroups>
+    </Antenna>
+	
+	<Antenna>      
+      <Id>
+	  <TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	  <SubtypeId>EarthPirateLarge</SubtypeId>
+	</Id>
+	<Name>Headquarters</Name>
+	<SpawnDistance>80</SpawnDistance>
+	<SpawnTimeMs>300000</SpawnTimeMs>
+	<FirstSpawnTimeMs>30000</FirstSpawnTimeMs>
+	<MaxDrones>6</MaxDrones>
+	<SpawnGroups>
+      <Group>Pirate Gunboat Stingray</Group>
+	  <Group>FleetingRival</Group>
+	  <Group>StingingAdversary</Group>			  
+	</SpawnGroups>
+    </Antenna>
+	
+	<Antenna>      
+      <Id>
+	  <TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	  <SubtypeId>Raiding</SubtypeId>
+	</Id>
+	<Name>Raiding</Name>
+	<SpawnDistance>80</SpawnDistance>
+	<SpawnTimeMs>300000</SpawnTimeMs>
+	<FirstSpawnTimeMs>30000</FirstSpawnTimeMs>
+	<MaxDrones>2</MaxDrones>
+	<SpawnGroups>
+	  <Group>FleetingRival</Group>
+	  <Group>StingingAdversary</Group>			  
+	</SpawnGroups>
+    </Antenna>
+	
+	<Antenna>      
+      <Id>
+	  <TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	  <SubtypeId>Pirate Back Up</SubtypeId>
+	</Id>
+	<Name>Pirate Back Up</Name>
+	<SpawnDistance>80</SpawnDistance>
+	<SpawnTimeMs>300000</SpawnTimeMs>
+	<FirstSpawnTimeMs>30000</FirstSpawnTimeMs>
+	<MaxDrones>3</MaxDrones>
+	<SpawnGroups>
+      <Group>Pirate Gunboat Stingray</Group>
+	  <Group>FleetingRival</Group>
+	  <Group>StingingAdversary</Group>			  
+	</SpawnGroups>
+    </Antenna>
+	
+	<Antenna>      
+      <Id>
+	  <TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	  <SubtypeId>Mulbery Raiding</SubtypeId>
+	</Id>
+	<Name>Mulbery Raiding</Name>
+	<SpawnDistance>80</SpawnDistance>
+	<SpawnTimeMs>30000</SpawnTimeMs>
+	<FirstSpawnTimeMs>300</FirstSpawnTimeMs>
+	<MaxDrones>2</MaxDrones>
+	<SpawnGroups>
+	  <Group>Pirate Gunboat Stingray</Group>
+	  <Group>Eradicator_mk.1</Group>			  
+	</SpawnGroups>
+    </Antenna>
+	
+	<Antenna>      
+      <Id>
+	  <TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	  <SubtypeId>Mulbery Back Up</SubtypeId>
+	</Id>
+	<Name>Mulbery Back Up</Name>
+	<SpawnDistance>80</SpawnDistance>
+	<SpawnTimeMs>30000</SpawnTimeMs>
+	<FirstSpawnTimeMs>300</FirstSpawnTimeMs>
+	<MaxDrones>3</MaxDrones>
+	<SpawnGroups>
+      <Group>Pirate Gunboat Stingray</Group>
+	  <Group>Eradicator_mk.1</Group>
+	  <Group>Pirate PitchFork</Group>			  
+	</SpawnGroups>
+    </Antenna>	
+    
+  </PirateAntennas>
+</Definitions>

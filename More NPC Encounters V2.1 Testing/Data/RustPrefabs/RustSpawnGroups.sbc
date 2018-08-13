@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+  <!-- Rover drone  --> 
+  <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Mars)(Rust)Rover drone(Inst-1)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Speed>0.0</Speed>
+      <Frequency>4</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Rover drone (campaign NPC)">
+          <Position>
+            <X>0.0</X>
+            <Y>10.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Rover drone 2  --> 
+  <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Mars)(Rust)Rover drone(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Speed>0.0</Speed>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Rover drone (campaign NPC)">
+          <Position>
+            <X>0.0</X>
+            <Y>10.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="Rover drone (campaign NPC)">
+          <Position>
+            <X>0.0</X>
+            <Y>10.0</Y>
+            <Z>50.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Rover drone 3  -->
+  <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Mars)(Rust)Rover drone(Inst-3)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Speed>0.0</Speed>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Rover drone (campaign NPC)">
+          <Position>
+            <X>0.0</X>
+            <Y>10.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="Rover drone (campaign NPC)">
+          <Position>
+            <X>0.0</X>
+            <Y>10.0</Y>
+            <Z>50.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="Rover drone (campaign NPC)">
+          <Position>
+            <X>0.0</X>
+            <Y>10.0</Y>
+            <Z>-50.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Rover drone 3 - R.U.S.T. Brawler  -->  
+  <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Mars)(Rust)R.U.S.T. Brawler (Campaign)(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Speed>0.0</Speed>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="R.U.S.T. Brawler (Campaign)">
+          <Position>
+            <X>0.0</X>
+            <Y>20.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- R.U.S.T. Brawler - R.U.S.T. Private Shuttle  -->  
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Mars)(Rust)R.U.S.T. Private Shuttle ( Modless )(Atmo)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="R.U.S.T. Private Shuttle ( Modless )">
+          <Position>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Position>
+          <Speed>15</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup> 
+<!-- R.U.S.T. Private Shuttle  - Rust The Pilgrims Curiosity  --> 
+   <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Mars)(Rust)The Pilgrims Curiosity(Inst-2)(Wreck)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Speed>0.0</Speed>
+      <Frequency>2</Frequency>
+      <Prefabs>
+<!-- Station -->  
+	  <Prefab SubtypeId="The Pilgrims Curiosity c">
+          <Position>
+            <X>0.0</X>
+            <Y>15.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+<!-- Station  1 -->  
+        <Prefab SubtypeId="Epod1">
+          <Position>
+            <X>100.0</X>
+            <Y>0.0</Y>
+            <Z>100.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="Epod2">
+          <Position>
+            <X>-100.0</X>
+            <Y>0.0</Y>
+            <Z>-100.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Rust The Pilgrims Curiosity - Rust Small Base Group 1  --> 
+   <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(Mars)(Rust)R.U.S.T.  Outpost(Inst-2)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Speed>0.0</Speed>
+      <Frequency>2</Frequency>
+      <Prefabs>
+<!-- Station -->  
+	  <Prefab SubtypeId="R.U.S.T.  Outpost">
+          <Position>
+            <X>0.0</X>
+            <Y>25</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+<!-- Station  1 -->  
+        <Prefab SubtypeId="R.U.S.T. Brawler (Campaign)">
+          <Position>
+            <X>100.0</X>
+            <Y>20</Y>
+            <Z>100.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="R.U.S.T. Harvester">
+          <Position>
+            <X>-100.0</X>
+            <Y>15</Y>
+            <Z>-100.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+<!-- Rust Small Base Group 1 -->
+  </SpawnGroups>
+</Definitions>
+

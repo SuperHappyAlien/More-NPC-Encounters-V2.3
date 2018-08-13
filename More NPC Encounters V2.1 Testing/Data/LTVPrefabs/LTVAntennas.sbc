@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PirateAntennas>
+<!-- LTV C-1 Buffalo -->
+<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>LTV C-1 Buffalo</SubtypeId>
+	</Id>
+	<Name>LTV C-1 Buffalo</Name>
+	<SpawnDistance>150</SpawnDistance>
+	<SpawnTimeMs>9000</SpawnTimeMs>
+	<FirstSpawnTimeMs>8000</FirstSpawnTimeMs> 
+	<MaxDrones>1</MaxDrones> 
+	<SpawnGroups>
+    <Group>LTV K-1 Finch</Group>		
+	</SpawnGroups>
+    </Antenna>
+<!-- LTV C-1 Buffalo - LTV B-1 Argo -->
+<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>LTV B-1 Argo</SubtypeId>
+	</Id>
+	<Name>LTV B-1 Argo</Name>
+	<SpawnDistance>150</SpawnDistance>
+	<SpawnTimeMs>9000</SpawnTimeMs>
+	<FirstSpawnTimeMs>8000</FirstSpawnTimeMs> 
+	<MaxDrones>1</MaxDrones> 
+	<SpawnGroups>
+    <Group>LTV K-1 Finch</Group>		
+	</SpawnGroups>
+    </Antenna>
+<!-- LTV B-1 Argo - LTV B-2 Kaiman -->
+<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>LTV B-2 Kaiman</SubtypeId>
+	</Id>
+	<Name>LTV B-2 Kaiman</Name>
+	<SpawnDistance>150</SpawnDistance>
+	<SpawnTimeMs>9000</SpawnTimeMs>
+	<FirstSpawnTimeMs>8000</FirstSpawnTimeMs> 
+	<MaxDrones>1</MaxDrones> 
+	<SpawnGroups>
+    <Group>LTV K-1 Finch</Group>		
+	</SpawnGroups>
+    </Antenna>
+<!-- LTV B-2 Kaiman -->
+  </PirateAntennas>
+</Definitions>

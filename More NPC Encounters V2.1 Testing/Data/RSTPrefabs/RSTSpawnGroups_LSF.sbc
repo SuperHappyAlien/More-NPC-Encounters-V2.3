@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <SpawnGroups>
+	
+		<!-- Frequency Ranges: 0 to 1 -->
+		<!-- Ranges with a margin of more than 1 between them tend to have massively skewed spawn chances that favour the higher frequency -->
+		<!-- Keep within decimal range for best results -->
+		
+	<!-- ============================================================================================ -->
+	<!-- ============================================================================================ -->
+	<!-- ============================================================================================ -->
+	<!-- ============================================================================================ -->
+	<!-- ============================================================================================ -->
+	<!-- ============================================================================================ -->
+
+	
+	<!-- ****** 														LARGE CLASSIFICATION 													****** -->
+								
+										<!--  HEAVY CARRIER VARIANTS -->
+									
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>Heavy_Carrier_1</SubtypeId>
+			</Id>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<Frequency>7</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Heavy_Carrier_1">
+					<Position>
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Position>
+					<BeaconText>[Battlecruiser] Megara</BeaconText>
+					<Speed>5</Speed>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+						
+										<!--  HEAVY FRIGATE VARIANTS -->
+									
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>Heavy_Frigate_1</SubtypeId>
+			</Id>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<Frequency>7</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Heavy_Frigate_1">
+					<Position>
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Position>
+					<BeaconText>[Heavy Frigate] Ligaera</BeaconText>
+					<Speed>5</Speed>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+						
+										<!--  CARGO TRANSPORT VARIANTS -->
+									
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>Cargo_Transport_1</SubtypeId>
+			</Id>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<Frequency>8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Cargo_Transport_Nero">
+					<Position>
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Position>
+					<BeaconText>[Cargo Transport] Nero</BeaconText>
+					<Speed>5</Speed>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>		
+
+		
+						
+										<!--  BATTLECRUISER VARIANTS -->
+									
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>Battlecruiser_1</SubtypeId>
+			</Id>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<Frequency>5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Battlecruiser_1">
+					<Position>
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Position>
+					<BeaconText>[Battleship] Agatha</BeaconText>
+					<Speed>5</Speed>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+																		<!--  MOBILE REFINERY VARIANTS -->
+										
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>Mobile_Refinery_1</SubtypeId>
+			</Id>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<Frequency>7</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Mobile Refinery">
+					<Position>
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Position>
+					<BeaconText>[Refinery] Gambler</BeaconText>
+					<Speed>5</Speed>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+								
+												<!--  RECLAMATION VARIANTS -->
+										
+		<SpawnGroup>
+		  <Id>
+			<TypeId>SpawnGroupDefinition</TypeId>
+			<SubtypeId>Reclamation_Rig_1</SubtypeId>
+		  </Id>
+		  <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+		  <Frequency>6</Frequency>
+		  <Prefabs>
+			<Prefab SubtypeId="Reclamation Rig">
+			  <Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			  </Position>
+			  <BeaconText>[Salvage Rig] Goree</BeaconText>
+			  <Speed>11</Speed>
+			</Prefab>
+		  </Prefabs>
+		</SpawnGroup>																
+		
+	</SpawnGroups>
+</Definitions>

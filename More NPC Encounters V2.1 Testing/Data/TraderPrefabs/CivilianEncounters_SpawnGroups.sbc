@@ -1,0 +1,296 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+  <!-- Industrial Stations -->
+<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(Traders)Industrial Station 3(Inst-3)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Industrial Station 3">
+          <Position>
+            <X>0</X>
+            <Y>9</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(Traders)Industrial Hangar Bay(Inst-3)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Industrial Hangar Bay">
+          <Position>
+            <X>0</X>
+            <Y>55</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(Traders)Industrial Station 2(Inst-3)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Industrial Station 2">
+          <Position>
+            <X>0</X>
+            <Y>19</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(Traders)Industrial Power Station(Inst-3)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Industrial Power Station">
+          <Position>
+            <X>0</X>
+            <Y>18</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	<!-- Industrial Stations - Storage Stations -->
+		<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(Traders)Storage Module(Inst-3)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>4</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Storage Module">
+          <Position>
+            <X>0</X>
+            <Y>14</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+		<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(Traders)Storage Module(Inst-3)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>4</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Storage Module_1">
+          <Position>
+            <X>0</X>
+            <Y>14</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+		<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(Traders)Storage Module(Inst-3)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>4</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Storage Module_2">
+          <Position>
+            <X>0</X>
+            <Y>14</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+		<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(Traders)Storage Module(Inst-3)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>4</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Storage Module_3">
+          <Position>
+            <X>0</X>
+            <Y>14</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+		<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(Traders)Storage Module(Inst-3)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>4</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Storage Module_4">
+          <Position>
+            <X>0</X>
+            <Y>14</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+		<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(Traders)Storage Module(Inst-3)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>4</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Storage Module_5">
+          <Position>
+            <X>0</X>
+            <Y>14</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+		<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(Traders)Storage Module(Inst-3)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>4</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Storage Module_6">
+          <Position>
+            <X>0</X>
+            <Y>14</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+		<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(Traders)Storage Module(Inst-3)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>4</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Storage Module_7">
+          <Position>
+            <X>0</X>
+            <Y>14</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+		<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(Traders)Storage Module(Inst-3)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>4</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Storage Module_8">
+          <Position>
+            <X>0</X>
+            <Y>14</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>	
+	<!-- Storage Module - Office Building -->	
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(Traders)Small Office Building(Inst-3)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Small Office Building">
+          <Position>
+            <X>0</X>
+            <Y>13</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	<!-- Office Building - Vanilla Factory -->	
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(EarthLike)(Traders)Vanilla Factory(Inst-3)</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <IsPirate>true</IsPirate>
+      <Frequency>3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Vanilla Factory">
+          <Position>
+            <X>0</X>
+            <Y>13</Y>
+            <Z>0</Z>
+          </Position>
+		  <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	<!-- Vanilla Factory -->	
+  </SpawnGroups>
+</Definitions>
+

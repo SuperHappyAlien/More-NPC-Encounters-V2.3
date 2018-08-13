@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <SpawnGroups>
+	
+		<!-- Frequency Ranges: 0 to 1 -->
+		<!-- Ranges with a margin of more than 1 between them tend to have massively skewed spawn chances that favour the higher frequency -->
+		<!-- Keep within decimal range for best results -->
+		
+	<!-- ============================================================================================ -->
+	<!-- ============================================================================================ -->
+	<!-- ============================================================================================ -->
+	<!-- ============================================================================================ -->
+	<!-- ============================================================================================ -->
+	<!-- ============================================================================================ -->
+
+	
+	<!-- ****** 														LARGE CLASSIFICATION 													****** -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>Light_Cargo_Transport</SubtypeId>
+			</Id>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<Frequency>7</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Light_Cargo_Transport">
+					<Position>
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Position>
+					<BeaconText>[Transport] Lone Ember</BeaconText>
+					<Speed>5</Speed>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>Military_Light_Carrier_MK1</SubtypeId>
+			</Id>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<Frequency>7</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Military_Light_Carrier_MK1">
+					<Position>
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Position>
+					<BeaconText>[Carrier] Exodus</BeaconText>
+					<Speed>5</Speed>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>Naga_V_Police</SubtypeId>
+			</Id>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<Frequency>7</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Naga_V_Police">
+					<Position>
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Position>
+					<BeaconText>[Battlecruiser] Naga</BeaconText>
+					<Speed>5</Speed>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+						
+
+	</SpawnGroups>
+</Definitions>
